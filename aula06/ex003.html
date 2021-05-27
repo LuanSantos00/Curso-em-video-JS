@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meu primeiro programa....</title>
+    <style>
+        body{   /*Comentário em CSS*/
+            background-color: rgb(96, 96, 134);
+            color: white;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+   <h1>Olá,mundo</h1> <!--Comentátio em HTML-->
+   <p>Já me livrei da maldição</p> 
+    <script>
+        //n.toString() e String(n) --> transforma qualquer coisa para string
+        //Number(n) --> TRANSFORMA DE STRING PARA O FORMATO QUE RECEBEU(SEJA INT OU FLOAT)
+        //Number.parseInt(n) --> TRANSFORMA DE STRING PARA INTEIRO
+        //Number.parseFloat(n) --> TRANSFORMA DE STRING PARA FLOAT
+        //SOBRE STRING
+        //s.length --> quantos caracteres a string tem
+        //s.toUppercase() --> tudo para 'MAIÚSCULAS'
+        //s.toLowerCase() --> tudo para 'minúsculas'
+        var  n1 = Number(window.prompt('Digite um número: '))// String
+        var n2 = Number(window.prompt('Digite outro número: '))// String
+        var s = n1+n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
+        // + para adição
+        // + para concatenação
+    </script>
+</body>
+</html>
